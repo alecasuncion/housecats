@@ -3,6 +3,11 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+footer {
+    background-color: #bd958f;
+    color: white;
+}
+
 /* 
 
 .cat-image {
@@ -23,6 +28,15 @@ body {
     line-height: 2;
 }
 
+#footer-nav .nav-item .nav-link {
+    color: white;
+    text-decoration: underline;
+}
+
+#footer-nav .nav-item .nav-link:hover {
+    color: #6c4025;
+}
+
 #headingGroup span {
     color: #6c4025;
 }
@@ -33,7 +47,6 @@ body {
 }
 
 #mainNavbar {
-    color: #ea1c2c;
     font-size: 1.5rem;
     font-weight: 100;
 }
@@ -45,6 +58,8 @@ body {
 #mainNavbar .nav-link:hover {
     color: #6c4025;
 }
+
+
 
 .navbar.scrolled {
     background-color: #bd958f;
